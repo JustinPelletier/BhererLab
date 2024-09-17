@@ -140,7 +140,7 @@ figure.effect-oscar img {
 
 figure.effect-oscar figcaption {
 	padding: 3em;
-	background-color: rgba(10, 21, 37, 0.81);
+	background-color: rgba(245, 166, 39, 0.86);
 	-webkit-transition: background-color 0.35s;
 	transition: background-color 0.35s;
 }
@@ -245,7 +245,7 @@ p {
     background: #0A1525;
     padding: 15px 0px;
 	
-	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
+	box-shadow: 1px 1px 4px rgba(245, 166, 39, 0.86);
     position: relative;
 }
 
@@ -374,9 +374,9 @@ p {
   width: 140px;
   height: 140px;
   overflow: hidden;
-  border: 8px dotted rgba(255, 255, 255, 0.23);
+  border: 8px dotted rgba(245, 166, 39, 0.86);
   margin: 0 auto 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 2px 4px rgba(245, 166, 39, 0.86);
 }
 #head .title {
   font-family: Alice, Georgia, serif;
@@ -429,7 +429,7 @@ p {
     padding-top: 72px;
 }
 .hero_wrapper {
-background: rgba(10, 21, 37, 0.69);
+background: rgba(245, 166, 39, 0.86);
 height: 650px;
 }
 .white_pad {
