@@ -420,7 +420,7 @@ p {
 .top_cont_outer {
     background: rgba(245, 166, 39, 0.86);
     position: relative; 
-    background: url('../img/main2.jpg') no-repeat;
+    background: url('../img/genome_center.jpg') no-repeat;
 	background-size: cover; 
 }
 
