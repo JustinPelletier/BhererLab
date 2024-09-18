@@ -98,85 +98,203 @@
 			
 <!--Team--> 
 <section id="team" class="content"> 
+  
+   <!-- Container -->
   <div class="container portfolio_title"> 
+    
+    <!-- Title -->
     <div class="section-title">
       <h2>Team members</h2>
-      <h6></h6>
+	<h6></h6>
+	  
     </div>
+    <!--/Title --> 
+    
   </div>
+  <!-- Container -->
   
-  <!-- Team member grid -->
-  <div class="portfolio">
-    <div class="isotope grid" id="portfolio_wrapper">
-      <!-- Portfolio Item -->
-      <figure class="portfolio-item one-four  animals isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="img/Claude_circle.jpg" alt="Claude Bhérer">
-        </div>
-        <figcaption>
-          <div>
-            <a href="javascript:void(0);" class="team-member-link" data-member="claude">
-              <h2>Claude <span>Bhérer</span></h2>
-              <p>Assistant Professor</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Filters -->
+  <div class="portfolio"> 
+    
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".animals">
+          <h5>Faculty</h5>
+          </a></li> 
+	<li><a class="" href="#" data-filter=".nature">
+          <h5>High Qualified Personal</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".wildlife">
+          <h5>Supervised Students</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".citylife">
+          <h5>Co-Supervised Students</h5>
+          </a></li>
+        
+      </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+     <!-- Portfolio Wrapper -->
+    <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
 
-      <!-- Portfolio Item -->
-      <figure class="portfolio-item one-four  nature isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="img/CaG_headshot.png" alt="Justin Pelletier">
-        </div>
-        <figcaption>
-          <div>
-            <a href="javascript:void(0);" class="team-member-link" data-member="justin">
-              <h2>Justin <span>Pelletier</span></h2>
-              <p>Bioinformatics Analyst</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
+     <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
+	   
+        <div class="portfolio_img"> 
+		<img src="img/Claude_circle.jpg"  alt="Portfolio 1"> </div> 
+			<figcaption>		
+				<div>
+				  <a href="img/Claude_circle.jpg" class="fancybox"> 
+					<h2>Claude <span>Bhérer</span></h2>
+							<p>Assistant Professor, Department of Human Genetics</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+  
+
+      <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  nature isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/CaG_headshot.png" alt="Portfolio 1"> </div>
+        	<figcaption>		
+				<div>
+				  <a href="img/CaG_headshot.png" class="fancybox"> 
+					<h2>Justin <span>Pelletier</span></h2>
+							<p>Bioinformatics Analyst</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
       
-      <!-- Repeat this block for other team members -->
-    </div>
-  </div>
 
-  <!-- Hidden panels for team members' information -->
-  <div id="claude-panel" class="team-info-panel hidden">
-    <h3>Claude Bhérer</h3>
-    <div class="row">
-      <div class="col-md-3">
-        <img src="img/Claude_circle.jpg" class="img-responsive img-circle" alt="Claude Bhérer">
-      </div>
-      <div class="col-md-9">
-        <h4>Assistant Professor, Department of Human Genetics</h4>
-        <p>Claude Bhérer's research focuses on population genetics, founder populations, rare diseases, and promoting equity, diversity, and inclusion in genomic research.</p>
-        <a href="https://www.linkedin.com/in/claudebherer" target="_blank">LinkedIn</a> |
-        <a href="https://x.com/claudebherer" target="_blank">X</a> |
-        <a href="mailto:claude.bherer@university.com">Email</a>
-      </div>
-    </div>
-  </div>
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/Ben_headshot.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/Ben_headshot.jpg" class="fancybox"> 
+					<h2>Benjamin <span>Kaufman</span></h2>
+							<p>PhD Student</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
+	    
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/Alyssa_headshot.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/Alyssa_headshot.jpg" class="fancybox"> 
+					<h2>Alyssa <span>Green</span></h2>
+							<p>MSc Student</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
 
-  <div id="justin-panel" class="team-info-panel hidden">
-    <h3>Justin Pelletier</h3>
-    <div class="row">
-      <div class="col-md-3">
-        <img src="img/CaG_headshot.png" class="img-responsive img-circle" alt="Justin Pelletier">
-      </div>
-      <div class="col-md-9">
-        <h4>Bioinformatics Analyst</h4>
-        <p>Justin works on population-based genomic data analysis, focusing on scalable identity-by-descent methods and rare variant detection.</p>
-        <a href="https://www.linkedin.com/in/justinpelletier" target="_blank">LinkedIn</a> |
-        <a href="https://x.com/justinpelletier" target="_blank">X</a> |
-        <a href="mailto:justin.pelletier@university.com">Email</a>
-      </div>
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/Irene_headshot.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/Irene_headshot.jpg" class="fancybox"> 
+					<h2>Irene <span>Pender</span></h2>
+							<p>MSc Student</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
+
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/Alex_headshot.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/Alex_headshot.jpg" class="fancybox"> 
+					<h2>Alexander <span>Chan</span></h2>
+							<p>MSc Student</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
+
+
+
+
+	    
+	    
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/Peyton_headshot.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/Peyton_headshot.jpg" class="fancybox"> 
+					<h2>Peyton <span>McClelland</span></h2>
+							<p>PhD Student</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
+
+     <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/Julia_headshot.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/Julia_headshot.jpg" class="fancybox"> 
+					<h2>Júlia <span>Cabré Romans</span></h2>
+							<p>PhD Student</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 
+
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/Juliano_headshot.jpg" alt="Portfolio 1"> </div>
+       <figcaption>		
+				<div>
+				  <a href="img/Juliano_headshot.jpg" class="fancybox"> 
+					<h2>Juliano <span>Malizia</span></h2>
+							<p>MSc Student</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item--> 	
+
+     
+
     </div>
+    <!--/Portfolio Wrapper --> 
+    
   </div>
+  <!--/Portfolio Filters -->
   
-  <!-- Add similar panels for other team members -->
-
+  <div class="portfolio_btm"></div>
+  
+  
+  <div id="project_container">
+    <div class="clear"></div>
+    <div id="project_data"></div>
+  </div>
+ 
+  
 </section>
 
 
@@ -495,28 +613,6 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
 <script type="text/javascript" src="js/wow.js"></script> 
 <script type="text/javascript" src="js/custom.js"></script>
 
-<!-- JavaScript and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        // Initially hide all team member panels
-        $('.team-info-panel').hide();
-
-        // Show the panel corresponding to the clicked team member
-        $('.team-member-link').click(function(){
-            var member = $(this).data('member');
-            
-            // Hide all other panels
-            $('.team-info-panel').hide();
-
-            // Show the selected member's panel
-            $('#' + member + '-panel').fadeIn();
-        });
-    });
-    </script>
-    
-    <!-- Additional JavaScript files -->
-    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
