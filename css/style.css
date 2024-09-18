@@ -267,7 +267,16 @@ p {
     display: none;
 }
 	
+#logo {
+    text-align: center;
+}
 
+#logo img {
+    width: 200px; /* Adjust width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+	
 /* Nav Styles
 ---------------------------------*/
 .navbar-inverse {
