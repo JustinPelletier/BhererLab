@@ -365,11 +365,14 @@ p {
   text-align: center;
 }
 #head {
-  background: #f4f4f4 url(../img/bg_head.jpg) top center;
+  background: 
+    linear-gradient(rgba(245, 166, 39, 0.86), rgba(245, 166, 39, 0.86)), /* Theme color overlay */
+    url(../img/genome_center.jpg) top center; /* New background image */
   background-size: cover;
-  color: rgba(27, 25, 26, 0.8);
+  color: rgba(27, 25, 26, 0.8); /* Text color */
   padding: 120px 0;
 }
+
 #head img.img-circle {
   display: block;
   width: 140px;
