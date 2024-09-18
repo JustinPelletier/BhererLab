@@ -770,18 +770,6 @@ a.contact_btn:hover {
 
 /* Portfolio
 ---------------------------------*/
-.team-info-panel {
-  display: none; /* Hidden by default */
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  margin-top: 20px;
-}
-
-.hidden {
-  display: none;
-}
-
 
 #Portfolio {
     padding: 60px 0px;
