@@ -366,7 +366,7 @@ p {
 }
 #head {
   background: 
-    linear-gradient(rgba(169, 169, 169, 1), rgba(169, 169, 169, 1)), /* Theme color overlay */
+    linear-gradient(rgba(169, 169, 169, 0.3), rgba(169, 169, 169, 0.3)), /* Theme color overlay */
     url(../img/genome_center.jpg) top center; /* New background image */
   background-size: cover;
   color: rgba(27, 25, 26, 0.8); /* Text color */
@@ -384,7 +384,7 @@ p {
 }
 #head .title {
   font-family: Alice, Georgia, serif;
-  font-size: 49px;
+  font-size: 60px;
   font-size: 3.0625rem;
 }
 #head .title a {
@@ -406,7 +406,7 @@ p {
   color: rgba(27, 25, 26, 0.8);
 }
 .home #head {
-  padding: 90px 0;
+  padding: 110px 0;
 }
 .home #head .title {
   font-size: 49px;
