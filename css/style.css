@@ -196,6 +196,71 @@ figure.effect-oscar:hover img {
 	opacity: 0.4;
 }
 
+/* Pop-up
+---------------------------------*/
+/* Popup Container */
+.popup-container {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    max-width: 900px; /* Similar width as your example */
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Left section for image */
+.popup-image {
+    width: 30%; /* Image takes up about 30% of the width */
+    padding-right: 20px;
+}
+
+.popup-image img {
+    width: 100%;
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+/* Right section for text */
+.popup-text {
+    width: 70%; /* Text takes up the remaining 70% */
+}
+
+.popup-text h3 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.popup-text .title {
+    color: #d9534f; /* Color similar to the example for title */
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.popup-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 15px;
+    color: #333;
+}
+
+.popup-text .email a {
+    color: #d9534f; /* Match email color */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.popup-text .email a:hover {
+    text-decoration: underline;
+}
+
+	
 /* Styles
 ---------------------------------*/
 body {
