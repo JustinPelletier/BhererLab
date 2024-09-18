@@ -366,7 +366,7 @@ p {
 }
 #head {
   background: 
-    linear-gradient(rgba(169, 169, 169, 0.3), rgba(169, 169, 169, 0.3)), /* Theme color overlay */
+    linear-gradient(rgba(169, 169, 169, 0.5), rgba(169, 169, 169, 0.5)), /* Theme color overlay */
     url(../img/genome_center.jpg) top center; /* New background image */
   background-size: cover;
   color: rgba(27, 25, 26, 0.8); /* Text color */
