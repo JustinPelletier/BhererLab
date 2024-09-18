@@ -208,7 +208,7 @@ body {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 38px;
     color: rgba(27, 25, 26, 0.8);
     font-family: 'Raleway', sans-serif;
     font-weight: heavy;
@@ -921,6 +921,14 @@ color: rgba(27, 25, 26, 0.8);
 .about-us h3{
 	font-size:28px;
 }
+
+.about-us h2 {
+    font-size: 38px;
+    color: rgba(27, 25, 26, 0.8);
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
+}
+
 .points{ 
 	margin-bottom: 10px;
 	font-size:14px;
