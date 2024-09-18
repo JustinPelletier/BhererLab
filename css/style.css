@@ -208,10 +208,10 @@ body {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 50px;
     color: rgba(27, 25, 26, 0.8);
     font-family: 'Raleway', sans-serif;
-    font-weight: normal;
+    font-weight: heavy;
     margin: 0px 0 25px 0;
     text-align: center;
     text-transform: uppercase;
@@ -1115,7 +1115,7 @@ transition: all .3s;
 }
 
 .contact_section h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: #ffffff;
     margin: 0 0 50px 0;
     text-transform: uppercase;
