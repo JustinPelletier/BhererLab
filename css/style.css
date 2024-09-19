@@ -1049,6 +1049,44 @@ color: rgba(27, 25, 26, 0.8);
 }
 
 
+/*
+-------new about us---------
+*/
+
+#publications {
+    padding: 20px 0;
+}
+
+#publications h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#publications a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#publications a:hover {
+    text-decoration: underline;
+}
+
+.publication-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publication-list li {
+    margin-bottom: 15px;
+}
+
+.publication-list p {
+    margin: 0;
+}
+
+
+
+
 /* Team
 ---------------------------------*/
 .team_section {
