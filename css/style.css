@@ -2400,8 +2400,8 @@ div.mc-image {
 
 
 section {
-  padding-top: 100px; /* Adjust this value based on the height of your header */
-  margin-top: -100px; /* Adjust this value based on the height of your header */
+  padding-top: 70px; /* Adjust this value based on the height of your header */
+  margin-top: -70px; /* Adjust this value based on the height of your header */
 }
 
 
