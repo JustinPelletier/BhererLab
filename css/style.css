@@ -321,6 +321,7 @@ h4 {
 p {
     line-height: 24px;
     margin: 0;
+    font-size: 1.5em; /* This makes the text 1.5 times bigger */
 }
 
 /* Header Styles
