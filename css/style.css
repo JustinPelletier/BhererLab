@@ -1181,6 +1181,63 @@ transition: all .3s;
 /*
 ----------NEW--------------*/
 
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 75%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-left {
+  flex: 1;
+}
+
+.modal-right {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.modal-links a {
+  display: block;
+  margin-top: 10px;
+}
 
 
 
