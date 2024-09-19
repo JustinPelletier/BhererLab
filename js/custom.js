@@ -142,27 +142,30 @@ document.getElementById('').onclick = function() {
 
 
 
-$(".fancybox").fancybox({
-    fitToView: false, // Prevent Fancybox from resizing the content to fit the view
-    autoSize: false,  // Disable automatic resizing
-    width: '90%',     // Set the width explicitly
-    height: 'auto',   // Allow the height to adjust based on content
-    afterLoad: function(instance, current) {
-        let newContent = `
-            <div class="team-panel">
-                <div class="panel-left">
-                    <img src="${current.src}" alt="${current.opts.$orig.find('h2').text()}" />
-                </div>
-                <div class="panel-right">
-                    <h2>${current.opts.$orig.find('h2').html()}</h2>
-                    <p>Here you can add a custom description about the team member.</p>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com">LinkedIn</a>
-                        <a href="https://www.twitter.com">X</a>
-                        <a href="mailto:someone@example.com">Email</a>
+$(document).ready(function() {
+    $(".fancybox").fancybox({
+        width: '80%',           // Set explicit width
+        height: 'auto',         // Let height adjust based on content
+        fitToView: false,       // Disable automatic resizing to fit the window
+        autoSize: false,        // Disable automatic resizing based on content
+        afterLoad: function(instance, current) {
+            // Custom modal content
+            let newContent = `
+                <div class="team-panel">
+                    <div class="panel-left">
+                        <img src="${current.src}" alt="${current.opts.$orig.find('h2').text()}" />
                     </div>
-                </div>
-            </div>`;
-        current.$content.html(newContent);
-    }
+                    <div class="panel-right">
+                        <h2>${current.opts.$orig.find('h2').html()}</h2>
+                        <p>Here you can add a custom description about the team member.</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com">LinkedIn</a>
+                            <a href="https://www.twitter.com">X</a>
+                            <a href="mailto:someone@example.com">Email</a>
+                        </div>
+                    </div>
+                </div>`;
+            current.$content.html(newContent);
+        }
+    });
 });
