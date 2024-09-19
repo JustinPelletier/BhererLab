@@ -1189,7 +1189,8 @@ transition: all .3s;
 
 .team-modal-content {
     display: flex;
-    width: 80%;
+    width: 90%;
+    max-width: 1200px; /* Set a maximum width to prevent overflow */
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -1198,17 +1199,19 @@ transition: all .3s;
 }
 
 .team-modal-left {
-    width: 30%;
+    width: 40%; /* Adjust based on how much space you want for the image */
     padding-right: 20px;
 }
 
+
 .team-modal-left img {
-    width: 100%;
+    width: 100%; /* This allows the image to scale within its container */
+    max-width: 400px; /* Set a maximum width if necessary */
     border-radius: 5px;
 }
 
 .team-modal-right {
-    width: 70%;
+    width: 60%; /* Adjust to ensure the text gets enough space */
 }
 
 .team-modal-right h2 {
@@ -1247,6 +1250,12 @@ transition: all .3s;
 }
 
 
+.panel-class {
+    width: 80%; /* Set a larger width for the panel */
+    max-width: 900px; /* Restrict it from becoming too large */
+    height: auto;
+    margin: 0 auto;
+}
 
 
 
@@ -2558,4 +2567,18 @@ width: 99%;
 .read_more2{
 display:none;
 }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .team-modal-content {
+        flex-direction: column;
+        width: 100%;
+    }
+    .team-modal-left, .team-modal-right {
+        width: 100%;
+        padding: 0;
+    }
 }
