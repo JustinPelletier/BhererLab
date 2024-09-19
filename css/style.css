@@ -321,7 +321,7 @@ h4 {
 p {
     line-height: 24px;
     margin: 0;
-    font-size: 1.5em; /* This makes the text 1.5 times bigger */
+    font-size: 1.25em; /* This makes the text 1.5 times bigger */
 }
 
 /* Header Styles
@@ -340,6 +340,10 @@ p {
     /* z-index: 9999999999999999999999999999999999; */
 }
 
+#header_box p {
+    font-size: 1.25em; /* This makes the text 1.5 times bigger */
+}
+	
 .logo a{
     float: left;
 	
