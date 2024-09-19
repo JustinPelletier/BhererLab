@@ -1058,8 +1058,10 @@ color: rgba(27, 25, 26, 0.8);
 }
 
 #publications h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-size: 48px;
+    color: rgba(27, 25, 26, 0.8);
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
 }
 
 #publications a {
@@ -1083,7 +1085,9 @@ color: rgba(27, 25, 26, 0.8);
 .publication-list p {
     margin: 0;
 }
-
+.scholar-link {
+    font-size: 1.5em; /* Adjust the size as needed */
+}
 
 
 
