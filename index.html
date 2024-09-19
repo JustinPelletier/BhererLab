@@ -10,7 +10,6 @@
 <link href="css/style.css" rel="stylesheet" type="text/css"> 
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
 <link href="css/animate.css" rel="stylesheet" type="text/css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.css" />
 	
 <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
@@ -144,40 +143,21 @@
      <!-- Portfolio Wrapper -->
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
 
-   <!-- Portfolio Item (Fancybox Trigger) -->
-	<figure class="portfolio-item one-four animals isotope-item effect-oscar">
-	    <div class="portfolio_img">
-	        <a href="#teamModal" data-fancybox>
-	            <img src="img/Claude_circle.jpg" alt="Portfolio 1">
-	        </a>
-	    </div>
-	    <figcaption>
-	        <div>
-	            <h2>Claude <span>Bhérer</span></h2>
-	            <p>Assistant Professor, Department of Human Genetics</p>
-	        </div>
-	    </figcaption>
-	</figure>
-	
-	<!-- Fancybox Modal Content -->
-	<div style="display: none;" id="teamModal">
-	    <div class="modal-container">
-	        <div class="modal-left">
-	            <img src="img/Claude_circle.jpg" alt="Claude Bhérer">
-	        </div>
-	        <div class="modal-right">
-	            <h2>Claude Bhérer</h2>
-	            <p>Assistant Professor, Department of Human Genetics</p>
-	            <p>Claude Bhérer is currently leading research on... [Add full description here].</p>
-	            <div class="social-links">
-	                <a href="https://linkedin.com/in/claude-bherer" target="_blank">LinkedIn</a> |
-	                <a href="https://twitter.com/claude-bherer" target="_blank">X</a> |
-	                <a href="mailto:claude@example.com">Email</a>
-	            </div>
-	        </div>
-	    </div>
-	</div>
-
+     <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
+	   
+        <div class="portfolio_img"> 
+		<img src="img/Claude_circle.jpg"  alt="Portfolio 1"> </div> 
+			<figcaption>		
+				<div>
+				  <a href="img/Claude_circle.jpg" class="fancybox"> 
+					<h2>Claude <span>Bhérer</span></h2>
+							<p>Assistant Professor, Department of Human Genetics</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
 	    
 	    
       <!-- Portfolio Item-->
@@ -638,16 +618,6 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
 <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
 <script type="text/javascript" src="js/wow.js"></script> 
 <script type="text/javascript" src="js/custom.js"></script>
-<!-- Fancybox JS -->
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
-
-<script>
-  // Optional: Custom Fancybox initialization or configuration
-  Fancybox.bind("[data-fancybox]", {
-    // Custom options (if needed)
-  });
-</script>
-	
 
 </body>
 </html>
