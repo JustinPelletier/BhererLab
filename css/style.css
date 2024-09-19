@@ -1176,6 +1176,77 @@ transition: all .3s;
     background: #fff;
 }
 
+/*
+	new content-------------------------------------------------
+*/
+
+.team-modal-content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-modal-left {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.team-modal-left img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.team-modal-right {
+    width: 70%;
+}
+
+.team-modal-right h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.team-modal-right p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.team-social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.team-social-links li {
+    display: inline-block;
+}
+
+.team-social-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.team-social-links li a:hover {
+    color: #0077b5; /* LinkedIn color */
+}
+
+
+
+
+
+
+
+
+
 /* Contact
 ---------------------------------*/
 .page_section.contact {
