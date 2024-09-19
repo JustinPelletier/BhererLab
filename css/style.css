@@ -1179,6 +1179,62 @@ transition: all .3s;
 /*
 	new content-------------------------------------------------
 */
+/* Ensure the team panel is styled and responsive */
+.team-panel {
+    display: flex;
+    width: 90%; /* Adjust this width to your preference */
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side for image */
+.panel-left {
+    width: 40%; /* Adjust width for image */
+    padding-right: 20px;
+}
+
+.panel-left img {
+    width: 100%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    border-radius: 5px;
+}
+
+/* Right side for text */
+.panel-right {
+    width: 60%; /* Adjust width for text */
+}
+
+.panel-right h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel-right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* LinkedIn color for hover */
+}
+
 
 .panel-class {
     width: 80%; /* Or another reasonable size like 60% */
