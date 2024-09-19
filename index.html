@@ -143,20 +143,21 @@
      <!-- Portfolio Wrapper -->
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
 
-     <<!-- Team Member 1 -->
-      <figure class="portfolio-item effect-oscar">
-        <div class="portfolio_img">
-          <a href="#" class="team-member-link" data-member="member1">
-            <img src="img/Claude_circle.jpg" alt="Claude Bhérer">
-          </a>
-        </div>
-        <figcaption>
-          <a href="#" class="team-member-link" data-member="member1">
-            <h2>Claude <span>Bhérer</span></h2>
-            <p>Assistant Professor, Department of Human Genetics</p>
-          </a>
-        </figcaption>
-      </figure>
+      <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
+	   
+        <div class="portfolio_img"> 
+		<img src="img/Claude_circle.jpg"  alt="Portfolio 1"> </div> 
+			<figcaption>		
+				<div>
+				  <a href="img/Claude_circle.jpg" class="fancybox"> 
+					<h2>Claude <span>Bhérer</span></h2>
+							<p>Assistant Professor, Department of Human Genetics</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
   
 
       <!-- Portfolio Item-->
@@ -294,27 +295,6 @@
  
   
 </section>
-
-
-<!-- Team Member Details Pop-Up (Hidden Initially) -->
-<div class="team-info-panel" id="member1-panel" style="display: none;">
-  <div class="team-info-content">
-    <div class="left">
-      <img src="img/Claude_circle.jpg" alt="Claude Bhérer">
-    </div>
-    <div class="right">
-      <h2>Claude Bhérer</h2>
-      <h4>Assistant Professor, Department of Human Genetics</h4>
-      <p>Claude Bhérer is a researcher focused on population genetics, rare diseases, and the inclusion of underrepresented populations in genomic research...</p>
-      <ul class="social-links">
-        <li><a href="https://linkedin.com/in/claude-bherer" class="fa fa-linkedin"></a></li>
-        <li><a href="https://twitter.com/claude_bherer" class="fa fa-twitter"></a></li>
-        <li><a href="mailto:claude.bherer@example.com" class="fa fa-envelope"></a></li>
-      </ul>
-    </div>
-  </div>
-  <button class="close-btn">Close</button>
-</div>
 
 
 
@@ -626,28 +606,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
 </footer>
 
 
-<script>
-  $(document).ready(function() {
-    // When a team member link is clicked
-    $('.team-member-link').click(function(e) {
-      e.preventDefault();
-      
-      // Get the member id from the data attribute
-      var member = $(this).data('member');
-      
-      // Hide any open panels
-      $('.team-info-panel').hide();
-      
-      // Show the selected member's panel
-      $('#' + member + '-panel').fadeIn();
-    });
 
-    // Close the panel when close button is clicked
-    $('.close-btn').click(function() {
-      $(this).closest('.team-info-panel').fadeOut();
-    });
-  });
-</script>
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
