@@ -144,39 +144,20 @@
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
 
    <!-- Portfolio Item -->
-	<figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" 
-	        class="portfolio-item one-four animals isotope-item effect-oscar" onclick="openModal()">
-	  <div class="portfolio_img">
-	    <img src="img/Claude_circle.jpg" alt="Portfolio 1">
-	  </div>
-	  <figcaption>
-	    <div>
-	      <h2>Claude <span>Bhérer</span></h2>
-	      <p>Assistant Professor, Department of Human Genetics</p>
-	    </div>
-	  </figcaption>
-	</figure>
-	<!--/Portfolio Item -->
-	
-	<!-- Modal Structure -->
-	<div id="teamModal" class="modal">
-	  <div class="modal-content">
-	    <span class="close" onclick="closeModal()">&times;</span>
-	    <div class="modal-left">
-	      <img src="img/Claude_circle.jpg" alt="Team Member" class="modal-img">
-	    </div>
-	    <div class="modal-right">
-	      <h2>Claude Bhérer</h2>
-	      <p>Assistant Professor, Department of Human Genetics</p>
-	      <p>Claude Bhérer is currently leading research on... [Add full description here].</p>
-	      <div class="social-links">
-	        <a href="https://linkedin.com/in/claude-bherer" target="_blank">LinkedIn</a> |
-	        <a href="https://twitter.com/claude-bherer" target="_blank">X</a> |
-	        <a href="mailto:claude@example.com">Email</a>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
+	   
+        <div class="portfolio_img"> 
+		<img src="img/Claude_circle.jpg"  alt="Portfolio 1"> </div> 
+			<figcaption>		
+				<div>
+				  <a href="img/Claude_circle.jpg" class="fancybox"> 
+					<h2>Claude <span>Bhérer</span></h2>
+							<p>Assistant Professor, Department of Human Genetics</p>
+				  </a>
+				</div>
+			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
 
 	    
 	    
@@ -627,27 +608,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. um do
 </footer>
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Open Modal
-      function openModal() {
-        document.getElementById('teamModal').style.display = 'block';
-      }
 
-      // Close Modal
-      function closeModal() {
-        document.getElementById('teamModal').style.display = 'none';
-      }
-
-      // Close modal if user clicks outside of the modal-content
-      window.onclick = function(event) {
-        var modal = document.getElementById('teamModal');
-        if (event.target == modal) {
-          modal.style.display = 'none';
-        }
-      }
-    });
-  </script>
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
