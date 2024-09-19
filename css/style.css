@@ -1259,7 +1259,20 @@ transition: all .3s;
 }
 
 
+.news-item-content {
+    display: flex;
+    align-items: flex-start;
+}
 
+.news-image {
+    margin-right: 15px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.news-text {
+    flex: 1;
+}
 
 
 
