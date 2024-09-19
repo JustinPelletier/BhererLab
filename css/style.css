@@ -2329,7 +2329,95 @@ div.mc-image {
 .news-content .news-media.gallery{
     box-shadow:4px 4px 0 #bbb,8px 8px 0 #ddd;
 }
-                               
+
+
+
+/*
+	Team pop up panel
+-----------------------------------------*/
+
+.team-info-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 90%;
+  z-index: 1000;
+  padding: 20px;
+  display: none; /* Hidden initially */
+}
+
+.team-info-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-info-content .left {
+  flex: 1;
+}
+
+.team-info-content .left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.team-info-content .right {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.team-info-content .right h2 {
+  margin: 0;
+}
+
+.team-info-content .right ul.social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.team-info-content .right ul.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.team-info-content .right ul.social-links li a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.team-info-content .right ul.social-links li a:hover {
+  color: #007bff;
+}
+
+.close-btn {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.close-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
 /*
    Media Queries
 --------------------------- */
