@@ -1180,6 +1180,13 @@ transition: all .3s;
 	new content-------------------------------------------------
 */
 
+.panel-class {
+    width: 100%; /* Or a suitable width, like 500px */
+    height: auto; /* You can define a specific height, such as 300px */
+    max-width: 600px; /* Optional, to set a maximum width */
+}
+
+
 .team-modal-content {
     display: flex;
     width: 80%;
