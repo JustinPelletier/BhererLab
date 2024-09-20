@@ -1336,7 +1336,7 @@ transition: all .3s;
 
 .contact_section h2 {
     font-size: 50px;
-    color: #ffffff;
+    color: rgba(245, 166, 39, 0.86);
     margin: 0 0 50px 0;
     text-transform: uppercase;
 }
