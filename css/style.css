@@ -1514,11 +1514,16 @@ transition: all .3s;
 */
 
 .resources-section {
-    background-color: #FFFF; /* Charcoal background */
-    color: rgba(27, 25, 26, 0.8); /* White text */
+    background-color: white; /* White background */
+    color: rgba(27, 25, 26, 0.8); /* Charcoal text */
     padding: 20px 0;
 }
 
+.resources-section h2 {
+    color: rgba(27, 25, 26, 0.8); /* Orange color for the title */
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 .resource-list {
     list-style-type: none;
@@ -1530,7 +1535,7 @@ transition: all .3s;
     padding: 10px;
     border: 1px solid rgba(245, 166, 39, 0.86); /* Orange border */
     border-radius: 5px;
-    background-color: rgba(27, 25, 26, 0.8); /* Charcoal background */
+    background-color: white; /* White background for list items */
 }
 
 .resource-link {
@@ -1544,16 +1549,9 @@ transition: all .3s;
 }
 
 .resource-description {
-    color: white; /* White text for descriptions */
+    color: rgba(27, 25, 26, 0.8); /* Charcoal text for descriptions */
     margin: 5px 0 0;
 }
-
-
-
-
-
-
-
 
 
 
