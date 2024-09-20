@@ -1525,6 +1525,11 @@ transition: all .3s;
     margin-bottom: 20px;
 }
 
+.resources-section a.scholar-link {
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: rgba(245, 166, 39, 0.86); /* Orange color for the link */
+}
+
 .resource-list {
     list-style-type: none;
     padding: 0;
@@ -1552,10 +1557,6 @@ transition: all .3s;
     color: rgba(27, 25, 26, 0.8); /* Charcoal text for descriptions */
     margin: 5px 0 0;
 }
-
-
-
-
 
 
 
