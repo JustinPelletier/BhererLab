@@ -1540,7 +1540,7 @@ transition: all .3s;
     padding: 10px;
     border: 1px solid rgba(245, 166, 39, 0.86); /* Orange border */
     border-radius: 5px;
-    background-color: white; /* White background for list items */
+    background-color: rgba(27, 25, 26, 0.8); /* White background for list items */
 }
 
 .resource-link {
