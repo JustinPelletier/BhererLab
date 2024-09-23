@@ -885,6 +885,12 @@ img {
     padding-bottom: 60px;
 }
 
+/* Custom CSS for last name */
+.last-name {
+    text-transform: none; /* Prevents automatic uppercase transformation */
+}
+
+
 
 /* Happy Clients
 ---------------------------------*/
