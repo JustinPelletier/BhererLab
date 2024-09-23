@@ -1317,11 +1317,12 @@ transition: all .3s;
     align-items: flex-start;
 }
 
-.news-image {
-    margin-right: 15px;
-    width: 100px; /* Adjust the width as needed */
-    height: auto;
+news-image {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 250px; /* Optional: Set a maximum width */
 }
+
 
 .news-text {
     flex: 1;
