@@ -1515,6 +1515,17 @@ transition: all .3s;
 }
 
 
+
+.contact_info .email-link {
+    color: rgba(245, 166, 39, 0.86); /* Orange color */
+    text-decoration: none;
+}
+
+.contact_info .email-link:hover {
+    text-decoration: underline;
+}
+
+
 /*
 -------------Resources-----------
 */
