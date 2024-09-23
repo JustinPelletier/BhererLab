@@ -1550,8 +1550,8 @@ transition: all .3s;
 }
 
 .resource-link {
-    color: rgba(245, 166, 39, 0.86); /* Orange color for links */
-    font-size: 1.2em;
+    color: black; /* Orange color for links */
+    font-size: 1.5em;
     text-decoration: none;
 }
 
