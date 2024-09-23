@@ -1544,7 +1544,7 @@ transition: all .3s;
 .resource-list li {
     margin-bottom: 15px;
     padding: 10px;
-    border: 2px solid rgba(27, 25, 26, 0.8); /* Charcoal border */
+    border: 2px solid rgba(245, 166, 39, 0.86); /* Charcoal border */
     border-radius: 5px;
     background-color: rgba(27, 25, 26, 0.2); /* White background for list items */
 }
