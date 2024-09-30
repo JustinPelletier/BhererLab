@@ -580,31 +580,9 @@
       document.getElementById("memberImage").src = image;
       document.getElementById("memberStatus").innerText = status;
       document.getElementById("memberDescription").innerText = description;
-
-      // Handle LinkedIn link
-      if (linkedin) {
-        document.getElementById("linkedinLink").href = linkedin;
-        document.getElementById("linkedinLink").style.display = "inline";
-      } else {
-        document.getElementById("linkedinLink").style.display = "none";
-      }
-
-      // Handle X link
-      if (x) {
-        document.getElementById("xLink").href = x;
-        document.getElementById("xLink").style.display = "inline";
-      } else {
-        document.getElementById("xLink").style.display = "none";
-      }
-
-      // Handle email link
-      if (email) {
-        document.getElementById("emailLink").href = "mailto:" + email;
-        document.getElementById("emailLink").style.display = "inline";
-      } else {
-        document.getElementById("emailLink").style.display = "none";
-      }
-
+      document.getElementById("linkedinLink").href = linkedin;
+      document.getElementById("xLink").href = x;
+      document.getElementById("emailLink").href = "mailto:" + email;
       modal.style.display = "block";
     }
 
@@ -619,7 +597,7 @@
         modal.style.display = "none";
       }
     }
-</script>
+ </script>
 
 
  
