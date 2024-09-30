@@ -1025,13 +1025,14 @@ color: rgba(27, 25, 26, 0.8);
 
 .points{ 
 	margin-bottom: 10px;
-	font-size:14px;
+	font-size:20px;
 	padding-left:0px;
 }
 .about-us p{
 	/*font-size: 0.9375em;*/
 	line-height: 1.625em;
 	padding: 15px 0;
+	font-size:20px;
 }
 .about-us .about-us-list{
 	list-style: none;
